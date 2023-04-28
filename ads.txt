@@ -1,4 +1,4 @@
 <?php
-header('Location: https://srv.adstxtmanager.com/19390/runjungle.com.br');
+header('Location: https://srv.adstxtmanager.com/49122/runjungle.com.br');
 exit;
 ?>
