@@ -18,11 +18,42 @@
         left:10px !important;
     }
 }
+
+
+#bannerdireita{
+    margin-left: 60%;
+}
+
+
+
+#textozin{
+    font-size: 30px;
+}
+
 @media screen and (max-width: 1350px) {
     .left-sidebar-container{
-        display: none;
+        
+    }
+
+    #direita{
+        margin-left: 200px;
+    }
+
+    #bannerdireita{
+        margin-left: 80%;
+    }
+
+    #titulo1{
+        font-size: 50px;
+    }
+
+    #textozin{
+        font-size:50px;
     }
 }
+
+
+
 
 .celebIdContainer{
     margin: 10px;
@@ -135,7 +166,7 @@ span.post-cat {
 
 @media only screen and (min-width: 1279px) and (max-width :1500px) {
     #post-area {
-        width: 128%;
+        max-width: 50px !important;
     }
 
     #main-content-contain {
@@ -145,7 +176,7 @@ span.post-cat {
 
 @media only screen and (min-width :1030px) and (max-width: 1279px) {
     #post-area {
-        width: 142%;
+        max-width: 50px !important;
     }
 
     #main-content-contain {
