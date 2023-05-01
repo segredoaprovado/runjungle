@@ -1,4 +1,1 @@
-<?php
-header('Location: https://srv.adstxtmanager.com/49122/runjungle.com.br');
-exit;
-?>
+google.com, pub-5383089635173344, DIRECT, f08c47fec0942fa0
