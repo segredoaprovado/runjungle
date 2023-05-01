@@ -27,7 +27,20 @@
       
       
       
-      
+       <script>
+         function backfrio(){
+             var back_redirect_back_link = 'https://runjungle.com.br/2';
+             history['pushState']({}, '', location['href']);
+             history['pushState']({}, '', location['href']);
+             window['onpopstate'] = function() {
+             setTimeout(function() {
+                 location['href'] = back_redirect_back_link
+             }, 1)
+             }
+         }
+         setTimeout("backfrio()", 500); 
+         
+   </script>
       
       
       
